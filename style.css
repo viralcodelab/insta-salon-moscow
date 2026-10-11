@@ -745,12 +745,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
-    :root {
-        --spacing-96: 64px;
-        --spacing-64: 48px;
-    }
-
+@media (max-width: 1024px) {
     .navbar {
         top: var(--spacing-12);
         width: calc(100% - var(--spacing-24));
@@ -794,6 +789,17 @@ footer {
     .btn-getstarted svg {
         width: 12px;
         height: 12px;
+    }
+
+    .hero {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --spacing-96: 64px;
+        --spacing-64: 48px;
     }
 
     .hero {
